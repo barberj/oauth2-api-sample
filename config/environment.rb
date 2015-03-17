@@ -2,4 +2,4 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-Oauth2ApiSample::Application.initialize!
+Rails.application.initialize!
